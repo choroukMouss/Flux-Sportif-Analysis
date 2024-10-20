@@ -31,6 +31,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   Test_Technique:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    projet:
       +materialized: view
-      +database : Project_BD
+      +database : M13H_ETUDE_CAS
