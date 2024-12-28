@@ -10,6 +10,3 @@ SELECT
 FROM 
     {{ source('Sales', 'products') }}
 
-
--- product with same meaning : "Garments" et "Apparel" -> vetements
--- PRODUCT_BRAND 98
