@@ -15,7 +15,6 @@
 
     Seuls les 10 types de produits générant le plus de revenu brut par mois et par pays sont affichés.
 
-  Réalisé par : Chorouk MOUSSAOUI
 */
 
 {{ config(alias='products_type_top10') }}
