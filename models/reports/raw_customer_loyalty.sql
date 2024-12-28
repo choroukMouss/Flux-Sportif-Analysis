@@ -7,8 +7,6 @@
     le taux de fidélité des clients ayant réalisé au moins 2 achats,
     et la valeur moyenne des revenus des clients fidèles.
 
-  Réalisé par : Chorouk MOUSSAOUI
-
 */
 {{ config(alias='customer_loyalty') }}
 
