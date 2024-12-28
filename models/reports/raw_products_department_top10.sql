@@ -6,8 +6,6 @@
     Ce modèle calcule le revenu brut pour chaque département de produit par mois et par pays.
     Il ne conserve que le top 10 des départements en fonction du revenu brut par pays et par mois.
 
-  Réalisé par : Chorouk MOUSSAOUI
-
 */
 
 {{ config(alias='products_department_top10') }}
