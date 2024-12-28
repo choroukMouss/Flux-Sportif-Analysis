@@ -7,7 +7,6 @@
     les transactions de la table source_raw_transactions, afin de déterminer si la couverture des 
     clés est à 100 %.
 
-  Réalisé par : Chorouk MOUSSAOUI
 */
 
 WITH coverage AS (
