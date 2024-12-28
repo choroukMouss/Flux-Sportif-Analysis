@@ -15,20 +15,3 @@ SELECT
 
 FROM 
     {{ source('Sales', 'transactions') }}
-
-
-
-/*
-
-Problème dans la colonne shipping_city :
-
-En analysant les données, j'ai remarqué que certaines valeurs de la colonne shipping_city 
-apparaissent sous plusieurs formes. Parfois, le nom de la ville est suivi du code postal ou 
-d’une commune associée (par exemple, city - code postal ou city - commune). 
-
-Cette incohérence ne respecte pas la forme normalisée de la ville seule et complique l'analyse des données par localité. 
-
-Exemple : MOITA - codepostale 
-Algés est un quartier qui fait partie de la ville Oeiras
-
-*/
