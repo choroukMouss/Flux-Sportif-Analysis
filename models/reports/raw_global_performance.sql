@@ -11,8 +11,7 @@
     - Items_sold : Quantité totale d'articles vendus.
 
     Les résultats sont agrégés par date, pays du site et marque du magasin, et triés selon ces dimensions.
- 
-  Réalisé par : Chorouk MOUSSAOUI
+
 */
 
 {{ config(alias='global_performance') }}
