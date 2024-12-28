@@ -12,7 +12,6 @@
 
     Les résultats sont agrégés par jour (date), pays du site, marque de produit, genre du produit, et département du produit.
 
-  Réalisé par : Chorouk MOUSSAOUI
 
 */
 
