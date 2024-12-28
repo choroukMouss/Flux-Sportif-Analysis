@@ -8,5 +8,5 @@ test_technique:
       port: 5432
       user: postgres
       pass: system
-      dbname: Project_BD
+      dbname: sales_Bdd
       threads: 1
