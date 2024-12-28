@@ -1,8 +1,0 @@
-sources:
-  - name: sales_data
-    database: M13H_ETUDE_CAS
-    schema: RECRUTEMENT
-    tables:
-      - name: transactions
-      - name: USERS
-      - name: products
